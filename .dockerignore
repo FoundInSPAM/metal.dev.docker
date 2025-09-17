@@ -1,0 +1,21 @@
+.git
+**/.git
+**/.git/**
+
+# Exclude host workspace from build context (it is volume-mounted at run-time)
+workspace/**
+
+**/__pycache__/**
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.mypy_cache/**
+**/.pytest_cache/**
+**/.venv/**
+**/node_modules/**
+
+*.log
+*.swp
+*.swo
+.DS_Store
+
