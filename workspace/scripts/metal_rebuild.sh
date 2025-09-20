@@ -6,7 +6,8 @@ set -euo pipefail
 
 cd "${TT_METAL_HOME}"
 
-./build_metal.sh
+# ./build_metal.sh
+./build_metal.sh --debug --build-tests
 
 ./create_venv.sh
 
